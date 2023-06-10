@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import AuthLayout from "../../layouts/AuthLayout";
 import icons from "../../helper/Icon";
 
@@ -55,7 +56,7 @@ const Login = () => {
                         <a href="forgot-password.html">I forgot my password</a>
                     </p>
                     <p className="mb-0">
-                        <a href="register.html" className="text-center">Register a new membership</a>
+                        <Link to="/register" className="text-center">Register a new membership</Link>
                     </p>
                 </div>
             </div>
